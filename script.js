@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
         //ini untuk menghilangkan tombol
         selectionContainer.style.display = "block";
-        document.getElementById("submitChoicesButton").hidden;
+        document.getElementById("submitChoicesButton").disabled = true;
     }
 
     document.getElementById("submitButton").addEventListener("click", function () {
